@@ -1,0 +1,221 @@
+/* =========================
+   GENERAL WEBSITE
+========================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    color: white;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    background-color: #081c24 !important;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    color: #7fffd4 !important;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.navbar-nav > li > a {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.navbar-nav > li > a:hover {
+    color: #7fffd4 !important;
+    background-color: #12343b !important;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+/* =========================
+   HEADINGS
+========================= */
+
+h1,
+h2,
+h3 {
+    color: #7fffd4;
+    font-weight: bold;
+}
+
+
+/* =========================
+   DASHBOARD CARDS
+========================= */
+
+.dashboard-card {
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(127, 255, 212, 0.3);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    border-color: #7fffd4;
+}
+
+.dashboard-card h2 {
+    font-size: 35px;
+    color: #7fffd4;
+}
+
+.dashboard-card p {
+    color: white;
+    font-size: 17px;
+}
+
+
+/* =========================
+   FORMS
+========================= */
+
+.form-box {
+    background: rgba(255, 255, 255, 0.10);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(127, 255, 212, 0.3);
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #222;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-control:focus {
+    border: 2px solid #7fffd4;
+    box-shadow: none;
+}
+
+label {
+    color: #7fffd4;
+    font-weight: bold;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn-primary {
+    background-color: #20b2aa;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #008b8b;
+}
+
+.btn-success {
+    background-color: #2e8b57;
+    border: none;
+}
+
+.btn-danger {
+    border: none;
+}
+
+
+/* =========================
+   PRODUCT TABLE
+========================= */
+
+.table-box {
+    background: rgba(255, 255, 255, 0.10);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(127, 255, 212, 0.3);
+}
+
+.table {
+    color: white;
+    margin-bottom: 0;
+}
+
+.table > thead > tr > th {
+    background-color: #12343b;
+    color: #7fffd4;
+    border-color: #28545c;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+    border-color: #45636a;
+}
+
+.table > tbody > tr:hover {
+    background-color: rgba(127, 255, 212, 0.08);
+}
+
+
+/* =========================
+   PRODUCT IMAGE
+========================= */
+
+.product-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #7fffd4;
+}
+
+
+/* =========================
+   LOW STOCK
+========================= */
+
+.low-stock {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #081c24;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer span {
+    color: #7fffd4;
+}
